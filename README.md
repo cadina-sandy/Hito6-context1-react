@@ -39,4 +39,8 @@ Pagar y Cerrar sesión siguen como botones de presentación; no hay pago ni aute
 5. Volver a Inicio y al carrito: el pedido se mantiene mientras no se recargue.
 
 Las rutas anteriores se mantienen: /, /register, /login, /cart, /pizza/p001, /profile y /404.
-La configuración usa la raíz del sitio. Si se publica dentro de una carpeta de GitHub Pages, ajustar base en vite.config.js al nombre del repositorio.
+GitHub Actions compila y publica en Pages al subir cambios a main. En Settings > Pages, la fuente debe ser GitHub Actions.
+
+Sitio: https://cadina-sandy.github.io/Hito6-context1-react/
+
+La ruta base para producción es /Hito6-context1-react/. El flujo de publicación prepara las rutas para permitir abrirlas directamente y recargarlas.
